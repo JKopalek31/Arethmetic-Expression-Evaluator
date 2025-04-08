@@ -1,0 +1,12 @@
+CSCI 461 Project 1 Write-Up
+Jett Kopalek
+
+For this project, I choose to use C++ as my language as I have some experience with it but wanted to freshen up with it. To start, the program enters a loop where it takes in user input. From this, we must get the shape of the input string to know what we are looking at for further steps. Parsing the string into tokens early on helps to give us manageable bits of data where we can then proceed with logic. If want to run one of the commands rather than an explicit operation, we will get this information early, and if not, we can proceed with evaluation or throw an error. If we proceed to an operation, we need to use the method discussed in class where we put items of the input into our stacks and evaluate using prefix operation. Finally, when the evaluation is made, we can return the result and get ready for the next input.
+
+I have implemented all parts of the project and the extra credit. This includes implementing:
+
+-> Modulo operations
+-> CLEAR command
+-> VARS command
+-> Ensure that all of the commands will work no matter the case (case insensitivity)
+-> Ensure that variables can be assigned exactly as they are typed in (case sensitivity)
